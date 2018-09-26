@@ -33,9 +33,10 @@ def hygiene=(change)
 end
 
 def clean?
-  if hygiene>7
-    return true 
-  else false 
+  # if hygiene>7
+  #   return true 
+  # else false 
+    hygiene>7?:true:false
 end
 end
 
