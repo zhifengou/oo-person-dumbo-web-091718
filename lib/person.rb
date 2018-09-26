@@ -41,9 +41,10 @@ end
 end
 
 def happy?
-  if happiness>7
-    return true 
-  else false 
+  # if happiness>7
+  #   return true 
+  # else false 
+  happiness>7?:true:false
 end
 end
   
